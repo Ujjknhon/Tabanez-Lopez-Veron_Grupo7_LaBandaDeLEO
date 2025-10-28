@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    box-sizing: 10;
+font-family: "Vend Sans", sans-serif; 
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+    align-items: center;
+}
+
+header .logo{
+    cursor: pointer;
+    padding-left: 5%;
+    height: 55px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    padding-right: 2%;
+    align-items: center;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks a:hover {
+    font-weight: bolder;
+    color: blue;
+}
+.navbar {
+    padding-right: 7%;
+}
+
+
+.title {
+    text-align: center;
+    height: 60px;
+    font-size: 60px;
+}
+
+p{
+    margin:80px;
+    font-size: 25px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    gap: 0px;
+    display: block;
+}
+
+h3 {
+    margin-left: 100px;
+    
+}
+
+.foto2 {
+    margin-left: 700px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.image {
+    margin-right: 50px;
+}
+
+.image2 {
+    margin-left: 50px;
+}
+
+.epoca1{
+    background-color: #F8F8F8;
+    margin: -50px;
+}
+
+.epoca2 {
+    background-color: #E6E6E6;
+    margin-top: -50px;
+}
+
+.epoca3 {
+    background-color: #D4D4D4;
+    margin: -50px;
+}
+
+.epoca4 {
+    background-color: #BFBFBF;
+    margin: -50px;
+}
