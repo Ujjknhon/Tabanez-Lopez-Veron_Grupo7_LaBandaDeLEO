@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    box-sizing: 10;
+font-family: "Vend Sans", sans-serif; 
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+    align-items: center;  
+  
+    
+   
+}
+
+header .logo{
+    cursor: pointer;
+    padding: 1%;
+    height: 55px;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    padding-right: 2%;
+    align-items: center;
+    
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+}
+.navlinks a:hover {
+    font-size: 23px;
+    transition: 1s;
+    color: #A6A6A6;
+}
+.navbar {
+    padding-right: 7%;
+}
+
+
+.title {
+    text-align: center;
+    height: 60px;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.cuadrado{
+    
+    padding-left: 3%;
+}
+
+h4 {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.parrafo {
+    padding-left: 4%;
+    font-size: 20px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 6 / span 6;
+    background-color: #d4d4d4;
+    border-radius: 2%;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 6 / span 6;
+    grid-column-start: 3;
+    background-color: #BFBFBF;
+     border-radius: 2%;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 6 / span 6;
+    grid-column-start: 5;
+    background-color: #a6a6a6;
+     border-radius: 2%;
+
+}
+        
+.ig{
+    display: flex;
+    cursor: pointer;
+    height: 50px;
+    padding: 2%;
+    align-items: center;
+    color: black ;
+       font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+}
